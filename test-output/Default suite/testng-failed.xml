@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ui.DataProvidersDemo">
+      <class name="ui.RetryTestCase">
         <methods>
-          <include name="Test" invocation-numbers="3"/>
+          <include name="LaunchApp"/>
         </methods>
-      </class> <!-- ui.DataProvidersDemo -->
+      </class> <!-- ui.RetryTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
