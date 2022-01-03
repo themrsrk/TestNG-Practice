@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-03T16:46:37 PKT" name="Default suite" finished-at="2022-01-03T16:46:37 PKT" duration-ms="37">
+    <groups>
+      <group name="BVT">
+        <method signature="TestInGroups.Test3()[pri:0, instance:ui.TestInGroups@43dac38f]" name="Test3" class="ui.TestInGroups"/>
+        <method signature="TestInGroups.Test4()[pri:0, instance:ui.TestInGroups@43dac38f]" name="Test4" class="ui.TestInGroups"/>
+      </group> <!-- BVT -->
+      <group name="User-Registration Tests">
+        <method signature="TestInGroups.Test1()[pri:0, instance:ui.TestInGroups@43dac38f]" name="Test1" class="ui.TestInGroups"/>
+        <method signature="TestInGroups.Test2()[pri:0, instance:ui.TestInGroups@43dac38f]" name="Test2" class="ui.TestInGroups"/>
+        <method signature="TestInGroups.Test3()[pri:0, instance:ui.TestInGroups@43dac38f]" name="Test3" class="ui.TestInGroups"/>
+        <method signature="TestInGroups.Test4()[pri:0, instance:ui.TestInGroups@43dac38f]" name="Test4" class="ui.TestInGroups"/>
+      </group> <!-- User-Registration Tests -->
+      <group name="regression">
+        <method signature="TestInGroups.Test1()[pri:0, instance:ui.TestInGroups@43dac38f]" name="Test1" class="ui.TestInGroups"/>
+        <method signature="TestInGroups.Test2()[pri:0, instance:ui.TestInGroups@43dac38f]" name="Test2" class="ui.TestInGroups"/>
+        <method signature="TestInGroups.Test3()[pri:0, instance:ui.TestInGroups@43dac38f]" name="Test3" class="ui.TestInGroups"/>
+      </group> <!-- regression -->
+    </groups>
+    <test started-at="2022-01-03T16:46:37 PKT" name="Default test" finished-at="2022-01-03T16:46:37 PKT" duration-ms="37">
+      <class name="ui.TestInGroups">
+        <test-method is-config="true" signature="DataSetup()[pri:0, instance:ui.TestInGroups@43dac38f]" started-at="2022-01-03T16:46:37 PKT" name="DataSetup" finished-at="2022-01-03T16:46:37 PKT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataSetup -->
+        <test-method signature="Test1()[pri:0, instance:ui.TestInGroups@43dac38f]" started-at="2022-01-03T16:46:37 PKT" name="Test1" finished-at="2022-01-03T16:46:37 PKT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method signature="Test2()[pri:0, instance:ui.TestInGroups@43dac38f]" started-at="2022-01-03T16:46:37 PKT" name="Test2" finished-at="2022-01-03T16:46:37 PKT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method signature="Test3()[pri:0, instance:ui.TestInGroups@43dac38f]" started-at="2022-01-03T16:46:37 PKT" name="Test3" finished-at="2022-01-03T16:46:37 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method signature="Test4()[pri:0, instance:ui.TestInGroups@43dac38f]" started-at="2022-01-03T16:46:37 PKT" name="Test4" finished-at="2022-01-03T16:46:37 PKT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method is-config="true" signature="DataCleanup()[pri:0, instance:ui.TestInGroups@43dac38f]" started-at="2022-01-03T16:46:37 PKT" name="DataCleanup" finished-at="2022-01-03T16:46:37 PKT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DataCleanup -->
+      </class> <!-- ui.TestInGroups -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
